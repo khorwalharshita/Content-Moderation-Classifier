@@ -1,1 +1,54 @@
+# 🛡️ Content Moderation Classifier (DistilBERT Fine-Tuning)
 
+## 📌 Overview
+
+This project implements a **Transformer-based NLP model** for detecting toxic and non-toxic content using **DistilBERT fine-tuning**.
+
+It is inspired by real-world content moderation systems used in platforms like **Meta, YouTube, and Reddit**, where large-scale AI models are used to filter unsafe user-generated content.
+
+The model is trained on the **Jigsaw Toxic Comment Classification Dataset**, which contains ~160,000 real Wikipedia comments labeled for toxicity.
+
+---
+
+## 🎯 Objective
+
+The goal of this project is to:
+
+- Classify text as **toxic or non-toxic**
+- Demonstrate fine-tuning of transformer models for NLP tasks
+- Work with real-world noisy text data
+- Build a foundational NLP moderation system
+
+---
+
+## 🧠 Model Information
+
+- Base Model: **DistilBERT (Hugging Face Transformers)**
+- Task: Binary Text Classification
+- Architecture: Transformer encoder + classification head
+- Framework: PyTorch / PyTorch Lightning
+
+---
+
+## 📊 Dataset
+
+- **Jigsaw Toxic Comment Classification Dataset**
+- ~160,000 labeled Wikipedia comments
+- Labels:
+  - Toxic
+  - Non-Toxic
+
+---
+
+## ⚙️ Tech Stack
+
+- Python 🐍
+- PyTorch ⚡
+- PyTorch Lightning
+- Hugging Face Transformers 🤗
+- Pandas, NumPy
+- Jupyter Notebook / Python scripts
+
+---
+
+## 🔄 Workflow
