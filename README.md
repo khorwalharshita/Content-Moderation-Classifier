@@ -51,4 +51,36 @@ The goal of this project is to:
 
 ---
 
-## 🔄 Workflow
+
+---
+
+## 📈 Current Status
+
+- ✔ Dataset preprocessing completed  
+- ✔ DistilBERT fine-tuning implemented  
+- ✔ Training pipeline created  
+- ✔ Basic inference pipeline available  
+- ⏳ Deployment (API/UI) not implemented yet  
+
+---
+
+## 💡 Key Learnings
+
+- Transformer-based NLP fine-tuning
+- Handling real-world noisy datasets
+- Binary text classification pipeline
+- Model training and evaluation using PyTorch ecosystem
+
+---
+
+
+## 🔮 Future Improvements
+
+- Deploy model using FastAPI
+- Build real-time moderation web app
+- Add multi-class toxicity detection (hate, spam, abuse)
+- Optimize inference using ONNX/TorchScript
+- Add UI dashboard for predictions
+
+---
+
